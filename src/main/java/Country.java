@@ -7,8 +7,10 @@ public class Country {
     private double area;
 
     public Country(String name, String capital, int population, double area) {
-        //TODO
-
+        this.name = name ;
+        this.capital = capital ;
+        this.area = area ;
+        this.population = population ;
     }
 
     public String getName() {
